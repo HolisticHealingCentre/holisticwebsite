@@ -1,0 +1,269 @@
+/* styles.css */ 
+
+html,
+body {
+	height: 100%;
+	min-height: 100%;
+	font-size: 12px;
+	min-width: 100%;
+	
+}
+
+
+
+/* cover */
+
+#cover {
+	background:  #222 url('../img/cover.jpg') center no-repeat;
+	background-size: cover;
+	color: white;
+	min-height: 100%;
+	padding-bottom: 100px;
+	text-align: center;
+
+}
+
+.content-section-a {
+
+	background:   grey; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(left top, rgb(62, 0, 124), rgb(8, 0, 102)); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(bottom right, rgb(62, 0, 124), rgb(8, 0, 102)); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(bottom right, rgb(62, 0, 124), rgb(8, 0, 102)); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to bottom right, rgb(62, 0, 124), rgb(8, 0, 102)); /* Standard syntax */ 
+	background-size: cover;
+	color: white;
+	text-align: center;
+	padding-top: 10vh;
+	padding-bottom:  10vh;
+	min-height: 100%;
+	
+}
+
+.content-section-b {
+	
+	background:   grey; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(left top,rgb(8, 0, 102), rgb(2, 124, 142)); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(bottom right,rgb(8, 0, 102), rgb(2, 124, 142)); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(bottom right,rgb(8, 0, 102), rgb(2, 124, 142)); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to bottom right, rgb(8, 0, 102), rgb(2, 124, 142)); /* Standard syntax */ 
+	background-size: cover;
+	color: white;
+	text-align: center;
+	padding-top: 10vh;
+	padding-bottom:  10vh;
+	min-height: 100%;
+
+}
+
+.content-section-c {
+	
+	background:   grey; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(left top, rgb(2, 124, 142), rgb(1, 142, 25)); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(bottom right,rgb(2, 124, 142), rgb(1, 142, 25)); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(bottom right, rgb(2, 124, 142), rgb(1, 142, 25)); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to bottom right, rgb(2, 124, 142), rgb(1, 142, 25)); /* Standard syntax */ 
+	background-size: cover;
+	color: white;
+	text-align: center;
+	padding-top: 10vh;
+	padding-bottom:  10vh;
+	min-height: 100%;
+
+}
+
+.content-section-d {
+	
+	background:   grey; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(left top,  rgb(1, 142, 25),rgb(165, 168, 1)); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(bottom right,  rgb(1, 142, 25),rgb(165, 168, 1)); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(bottom right,  rgb(1, 142, 25),rgb(165, 168, 1)); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to bottom right, rgb(1, 142, 25),rgb(165, 168, 1)); /* Standard syntax */ 
+	background-size: cover;
+	color: white;
+	text-align: center;
+	padding-top: 10vh;
+	padding-bottom:  10vh;
+	min-height: 100%;
+
+}
+
+
+
+.color-div-a {
+
+	background: #810FD8;
+	height: 1vh;
+}
+
+.color-div-b {
+
+	background: #1421D1;
+	height: 1vh;
+}
+.color-div-c {
+
+	background: #0FDFCA;
+	height: 1vh;
+}
+
+.color-div-d {
+
+	background: #13D20C;
+	height: 1vh;
+}
+.color-div-e {
+
+	background: #E6D810;
+	height: 1vh;
+}
+
+.color-div-f {
+
+	background: #DB360D;
+	height: 1vh;
+}
+
+.intro-message {
+
+	padding-top: 150px;
+}
+
+h1 {
+	font-family: 'Helvetica Neue', sans-serif; 
+	font-size: 7.5vw;
+	color: grey;
+	 
+	font-weight: bold; 
+	letter-spacing: -1px; 
+	line-height: 1; 
+	text-align: center;
+	 word-wrap: break-word;
+     -webkit-hyphens: auto;
+     -moz-hyphens: auto;
+     -ms-hyphens: auto;
+     -o-hyphens: auto;
+     hyphens: auto;
+     padding-bottom: 60px;
+}
+
+h2, h3 {
+
+	font-family: 'Open Sans', sans-serif;
+	font-size: 150%
+	font-weight: 300;
+	 line-height: 42px;
+	 margin: 0 0 40px; 
+	 text-align: center;
+}
+
+p {
+	font-size: 120%
+}
+
+ #map {
+        height: 70vh;
+        width: 100%;
+       }
+
+
+
+#size {
+	
+	padding-top: 10vh;
+	color: white;
+}
+
+.plans {
+	
+	
+}
+
+.projects {
+
+	background: #333333;
+}
+
+.banner {
+	
+	background:   red; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(left top, red, yellow); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(bottom right, red, yellow); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(bottom right, red, yellow); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to bottom right, rgb(165, 168, 1),rgb(196, 66, 1)); /* Standard syntax */ 
+	background-repeat:no-repeat;
+	-webkit-background-size:cover;
+	-moz-background-size:cover;
+	-o-background-size:cover;
+	background-size:cover;
+	background-position:center
+	
+	
+	padding-top: 200px;
+	padding-bottom: 17vh;
+
+}
+
+.white-text {
+
+	color: white;
+}
+
+footer {
+
+	background: #222;
+
+
+}
+
+.pad-top-20 {
+
+	padding-top: 20px;
+}
+
+.bigger-font {
+
+	font-family: 'Open Sans', sans-serif;
+	
+	 
+	font-weight: 300;
+	 line-height: 42px;
+	 margin: 0 0 72px; 
+	 text-align: center;
+	 letter-spacing: -1px;
+}
+
+.btn {
+	
+}
+
+.skills-h2-font {
+	font-size: 350%;
+	text-align: center;
+
+}
+
+.thumbnail, img {
+    max-height: 100%;
+    max-width: 100%;
+}
+
+.img-size {
+
+	width: auto;
+	height: 70vh;
+}
+
+.flavicon {
+
+	size: 60%;
+}
+
+.padding {
+
+	padding-top: 50px;
+}
+
+.padding-less {
+
+	padding-top: 20px;
+}
